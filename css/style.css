@@ -293,6 +293,7 @@ body {
         width: 100%;
         margin: 0;
         text-align: center;
+        padding-top: 0;
     }
 
     .header-nav-link::before {
