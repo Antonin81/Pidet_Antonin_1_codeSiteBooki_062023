@@ -114,9 +114,6 @@ body {
 }
 
 .title-search h2 {
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 700;
     margin-bottom: 8px;
     padding-top: 30px;
 }
@@ -238,6 +235,35 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 124px;
+}
+
+.hebergements-cards .card-content {
+    padding: 4px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hebergements-cards .card-content h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.hebergements-cards .card-content p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.5px;
+    margin: 0;
 }
 
 /****** Populaires ***********/
