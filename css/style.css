@@ -146,6 +146,10 @@ body {
     line-height: 21px;
 }
 
+.form-section > * {
+    margin-bottom: 35px;
+}
+
 .search-bar input {
     border-top: solid 1px var(--main-bg-color);
     border-bottom: solid 1px var(--main-bg-color);
@@ -334,5 +338,5 @@ body {
     .search-bar button {
         border-radius: 15px;
     }
-    
+
 }
