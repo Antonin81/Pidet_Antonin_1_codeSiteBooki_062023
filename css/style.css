@@ -10,6 +10,11 @@
     --filter-bg-color: #DEEBFF;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
 }
@@ -384,6 +389,35 @@ body {
 
 .activites-cards .card .card-content h3 {
     margin: 0;
+}
+
+
+/******Footer******/
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-div {
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
