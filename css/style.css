@@ -450,7 +450,6 @@ footer {
     }
 
     /******populaires******/
-
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -473,6 +472,11 @@ footer {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    /******activites******/
+    .activites-cards img {
+        height: 200px;
     }
 }
 
@@ -587,6 +591,11 @@ footer {
 
     .populaires-cards .card {
         margin-top: 15px;
+    }
+
+    /******activites******/
+    .activites-cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
