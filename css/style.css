@@ -10,6 +10,11 @@
     --filter-bg-color: #DEEBFF;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -79,8 +84,6 @@ body {
     font-weight: 400;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-decoration: none;
-    color: black;
     position: relative;
 }
 
@@ -254,8 +257,7 @@ body {
     width: 65%;
 }
 
-.hebergements a {
-    text-decoration: none;
+.hebergements-a {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -402,7 +404,7 @@ body {
         width: 100%;
     }
 
-    .hebergements a {
+    .hebergements-a {
         margin-top: 15px;
     }
 
@@ -504,7 +506,7 @@ body {
     .populaires-cards {
         flex-direction: column;
     }
-    
+
     /******Hebergements and populaires******/
     .hebergements-and-populaires section{
         padding: 35px 20px 20px 20px;
