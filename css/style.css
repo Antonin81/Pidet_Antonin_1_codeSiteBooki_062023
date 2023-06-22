@@ -335,6 +335,11 @@ body {
 }
 
 /******Activites******/
+.activites {
+    padding:30px;
+    margin-top: 40px;
+}
+
 .activites-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
