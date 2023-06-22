@@ -316,8 +316,11 @@ body {
 }
 
 .populaires-cards .card {
-    display: flex;
     margin-top: 33px;
+}
+
+.populaires-cards .card a {
+    display: flex;
 }
 
 .populaires-cards img {
@@ -498,7 +501,7 @@ body {
         border-radius: 15px;
     }
 
-    .populaires-cards .card{
+    .populaires-cards .card {
         margin-top: 15px;
         width: 100%;
     }
@@ -544,7 +547,7 @@ body {
         margin-top: 0;
     }
 
-    .populaires-cards .card{
+    .populaires-cards .card {
         margin-top: 15px;
     }
 
