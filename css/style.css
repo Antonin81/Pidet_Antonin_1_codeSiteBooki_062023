@@ -2,6 +2,7 @@
 * {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 
 :root {
@@ -124,7 +125,7 @@ h3 {
     margin-bottom: 35px;
 }
 
-.title-search h2 {
+.title-search h1 {
     margin-bottom: 8px;
     padding-top: 30px;
 }
@@ -369,6 +370,10 @@ h3 {
     margin-top: 40px;
 }
 
+.activites h2{
+    margin-bottom: 30px;
+}
+
 .activites-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -539,15 +544,6 @@ footer {
         border-radius: 15px;
     }
 
-    .populaires-cards .card {
-        margin-top: 15px;
-        width: 100%;
-    }
-
-    .populaires-cards {
-        flex-direction: column;
-    }
-
     .filters button {
         font-size: 14px;
     }
@@ -599,6 +595,11 @@ footer {
 
     .populaires-cards .card {
         margin-top: 15px;
+        width: 100%;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
     }
 
     /******Activites******/
