@@ -178,8 +178,7 @@ h3 {
 .form-first-image {
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
-    height: 50px;
-    width: 50px;
+    width: 49px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,7 +243,7 @@ h3 {
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    padding: 10px; /*Pourquoi ?*/
+    padding: 10px;
 }
 
 .search-info p {
@@ -409,6 +408,7 @@ footer {
 .footer-title {
     font-weight: 700;
     font-size: 18px;
+    margin: 0;
 }
 
 .footer-links {
@@ -525,6 +525,9 @@ footer {
 
     .search-bar button span {
         display: none;
+    }
+    .search-bar button {
+        margin-left:-13px;
     }
     
     .form-section {
